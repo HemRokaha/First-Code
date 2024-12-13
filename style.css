@@ -1,0 +1,29 @@
+.name {
+    color: black;
+    font-family: Arial;
+    font-size: 100px;
+    padding: 70px 0;
+    text-align: center;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.content {
+    color: red;
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+    animation: blink 0.5s infinite;
+}
