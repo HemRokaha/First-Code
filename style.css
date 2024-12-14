@@ -1,5 +1,5 @@
 .name {
-    color: black;
+    color: white;
     font-family: Arial;
     font-size: 100px;
     padding: 70px 0;
@@ -26,4 +26,8 @@
     font-size: 50px;
     text-align: center;
     animation: blink 0.5s infinite;
+}
+
+body {
+    background-color: black;
 }
