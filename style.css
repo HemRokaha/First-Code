@@ -1,9 +1,9 @@
 .name {
     color: white;
     font-family: Arial;
-    font-size: 100px;
-    padding: 70px 0;
+    font-size: 25px;
     text-align: center;
+    vertical-align: top;
 }
 
 @keyframes blink {
@@ -21,11 +21,25 @@
 }
 
 .content {
+    vertical-align: top;
     color: red;
     font-family: Arial;
     font-size: 50px;
     text-align: center;
     animation: blink 0.5s infinite;
+}
+
+.picture {
+    display: inline-block;
+}
+
+.profile-picture{
+    object-fit: cover;
+    width: 400px;
+    max-height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50%;
 }
 
 body {
