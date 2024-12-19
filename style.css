@@ -48,6 +48,11 @@
     width: 65px;
 }
 
+.quote {
+    color: brown;
+    padding-left: 220px;
+}
+
 body {
     background-color: black;
 }
