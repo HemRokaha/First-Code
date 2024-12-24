@@ -1,9 +1,9 @@
 .name {
     color: white;
-    font-family: Arial;
     font-size: 30px;
     text-align: center;
     vertical-align: top;
+    animation: blink 0.5s infinite;
 }
 
 .picture {
@@ -22,7 +22,6 @@
 .social-discription {
     display: inline-block;
     color: white;
-    font-family: airal;
     font-size: 40px;
     padding-top: 150px;
     padding-left: 500px;
@@ -30,22 +29,22 @@
 }
 
 .social-icon {
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
 }
 
 .facebook-icon {
-    width: 55px;
+    width: 45px;
 }
 
 .x-icon {
-    width: 60px;
+    width: 75px;
 }
 
 .Instagram-icon {
-    width: 65px;
+    width: 70px;
 }
 
 .quote {
@@ -70,4 +69,5 @@
 
 body {
     background-color: black;
+    font-family: Arial;
 }
