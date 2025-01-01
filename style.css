@@ -3,7 +3,11 @@
     font-size: 30px;
     text-align: center;
     vertical-align: top;
-    animation: blink 0.5s infinite;
+    animation: blink 0.8s infinite;
+    text-shadow: 0px 0px 10px #ff13f0,
+                 0px 0px 20px #ff13f0,
+                 0px 0px 40px #ff13f0,
+                 0px 0px 80px #ff13f0;
 }
 
 .picture {
