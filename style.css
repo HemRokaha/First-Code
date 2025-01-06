@@ -63,7 +63,7 @@
 }
 
 .quote {
-    color: cyan;
+    color: greenyellow;
     padding-left: 160px;
     animation: blink 1s infinite;
     text-shadow: 0px 0px 10px #ff13f0,
