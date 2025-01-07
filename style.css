@@ -64,7 +64,8 @@
 
 .quote {
     color: greenyellow;
-    padding-left: 160px;
+    padding-left: 175px;
+    padding-top: 20px;
     animation: blink 1s infinite;
     text-shadow: 0px 0px 10px #ff13f0,
                  0px 0px 20px #ff13f0,
